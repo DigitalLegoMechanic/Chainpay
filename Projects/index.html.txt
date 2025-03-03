@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chainpay</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Chainpay</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Chainpay</h2>
+    <p>Chainpay is a platform to facilitate cryptocurrency payments globally.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>Accept crypto payments, convert to fiat, and send to your wallet with ease.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Get in touch with us at contact@chainpay.com.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Chainpay</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
