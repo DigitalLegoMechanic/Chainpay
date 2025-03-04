@@ -1,0 +1,30 @@
+{
+  "name": "chainpay-mvp",
+  "version": "1.0.0",
+  "description": "Chainpay MVP - A decentralized payment platform for businesses",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0",
+    "axios": "^0.21.1",
+    "web3": "^1.5.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.7.2",
+    "nodemon": "^2.0.7",
+    "jest": "^26.6.0",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "ISC"
+}
