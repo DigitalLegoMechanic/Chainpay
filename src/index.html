@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chainpay</title>
-</head>
-<body>
-  <div id="app"></div>
-  <script src="bundle.js"></script> <!-- Webpack will inject this during build -->
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval';">
+    <title>Chainpay</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <!-- Your app will be rendered here -->
+    </div>
+    <script src="dist/bundle.js"></script>
+  </body>
 </html>
